@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+    /*Usando os elementos do HTML (html-body-p)*/
+html {
+
+    font-family: "Open Sans", sans-serif;
+}
+
+
+body {
+
+    background-color: cornsilk;
+    margin-bottom: 100px;
+}
+img{
+
+    width: 100%;
+}
+
+     /*Usando uma classe*/
+
+.header {
+
+   background-color: darkgray;
+   display:flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   align-items: center;
+   padding: 10px;
+}
+.menu {
+    display:flex;
+
+}
+
+.menu li {
+   
+    list-style: none;
+}
+.menu li a {
+
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+}
+/* criar um retangulo ao passar o ponteiro do mouse */
+.menu a:hover{
+    background-color: crimson;
+    color: azure;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+

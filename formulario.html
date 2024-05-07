@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  
+<head>
+    <!-- meta- Informações ao navegador   -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="autor" content="Tayssa">
+    <meta name="assunto" content="Formulário sobre o Rock. ">
+    <title>Formulário sobre o Rock Nacional 🤟 </title>
+    <link rel="icon" href="img/icons8-música-rock-48.png" type="image/x-icon">
+ </head>
+ <body>
+    <header>
+    <h1>Página 2 - Formulário de Pesquisa 🔥 </h1>
+
+     <!-- Menu de navegação -->
+    <nav>
+   
+     <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="fotos.html">Fotos de imagens no Rock</a></li>
+    
+       </ul>
+       </nav>
+       <hr>
+       </header>
+       <!-- menu do formulário 01 -->
+       <main>
+       <h2>Preencha o formulário</h2>
+
+       <form action="/submit-form">
+
+          <fieldset>
+            <legend>Informações Gerais</legend>
+           <label for="Nome">Nome:</label>
+           <input type="text" name="Nome" id="Nome"
+           placeholder="Informe seu nome" autofocus><br><br>
+
+           <label for="Email">E-mail:</label>
+           <input type="text" name="Email" id="Email" placeholder="Informe seu nome"><br><br>
+          
+           <label for="dataNascimento">Data de Nascimento:</label>
+           <input type="date" name="dataNascimento" id="dataNascimento"><br><br>
+
+
+           <label for="Idade">Idade:</label>
+           <input type="number" name="Idade" id="Idade" min="10" max="90" placeholder="Informe sua Idade"><br><br>
+
+          </fieldset>
+          <br><br>
+
+          <fieldset>
+             <legend>Informe sua Banda Favorita</legend><br>
+                <!-- Menu do formulário 02 -->
+          <label for="Banda-favorita">Qual é sua Banda Favorita?</label>
+          <input type="text" name="Banda-favorita" id="Banda-favorita" placeholder="Capital Inicial"><br><br>
+
+          <p>Qual a seu gênero de Rock favorito?</p><br>
+          <select name="genero-favorito" id="genero-favorito">
+           <option value="Rock">Rock</option>
+
+          <option value="Classico">Classico</option>
+           <option value="Alternativo">Alternativo</option>
+           <option value="Punk">Punk</option>
+           <option value="Metal">Metal</option>
+           <option value="Outro">Outro</option>
+          </select>
+
+          <p>Qual é a sua plataforma de streaming favorita de música?</p>
+          
+          <input type="radio" name="plataformas" id="spotify" value="spotify">
+          <label for="spotify">Spotify</label>
+
+          <input type="radio" name="plataformas" id="deezer" value="deezer">
+          <label for="spotify">Deezer</label>
+
+          <input type="radio" name="plataformas" id="Applemusic" value="Applemusic">
+          <label for="Applemusic">Apple Music</label>
+
+          <p>Qual dessas bandas de rock nacionais você conhece?</p>
+
+          <input type="checkbox" name="bandas" id="legiaoUrbana" value="legiaoUrbana">
+          <label for="legiaoUrbana">Legião Urbana</label><br><br>
+
+          <input type="checkbox" name="bandas" id="titas" value="titas">
+          <label for="titas">Titãs</label><br><br>
+
+          <input type="checkbox" name="bandas" id="paralamas" value="paralamas">
+          <label for="paralamas">Paralamas do Sucesso</label><br><br>
+
+          <input type="checkbox" name="bandas" id="capitalInicial" value="capitalInicial">
+          <label for="capitalInicial">Capital Inicial</label><br><br>
+
+          <input type="checkbox" name="bandas" id="charlesBrow" value="charlesBrow">
+          <label for="charlesBrow">Charles Brow Jr.</label><br><br>
+         
+          </fieldset>
+          <br><br>
+
+          <fieldset>
+           
+              <legend>Participe da nossa galeria de fotos!!</legend>
+               <p>Anexe sua foto em um show para adicionamos na nossa galeria!</p>
+                    <!-- colocar fotos para enviar -->
+                <input type="file" name="anexoFoto" id="anexoFoto"><br><br>
+                 
+                <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Escreva a legenda de sua foto aqui..." ></textarea>
+                <br><br>
+                </fieldset>
+                <br><br>
+                <!-- enviar fotos para o site -->
+                <button type="submit">Enviar</button>
+                <button type="reset">Limpar</button>
+
+               </form>
+               <br><br>
+
+               <p><a href="formulario.html">Voltar ao Topo</a></p>
+
+       </main>
+
+       <footer>
+           <p>&lt; &copy; copyright - App - Rock Nacional &gt;</p>
+       </footer>
+
+   </body>
+
+</html>
